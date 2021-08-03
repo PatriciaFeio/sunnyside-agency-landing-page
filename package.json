@@ -1,0 +1,31 @@
+{
+  "name": "sunnyside-agency-landing-page",
+  "version": "1.0.0",
+  "description": "frontend mentor landing page challenge built with HTML, CSS and a bit of JS. Mobile first approach, responsive, hover states for all interactive elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-scss": "sass --watch src/scss/main.scss dist/main.css",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch-scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatriciaFeio/sunnyside-agency-landing-page.git"
+  },
+  "keywords": [
+    "HTML",
+    "SCSS",
+    "JS",
+    "responsive"
+  ],
+  "author": "Patrícia Feio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatriciaFeio/sunnyside-agency-landing-page/issues"
+  },
+  "homepage": "https://github.com/PatriciaFeio/sunnyside-agency-landing-page#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
